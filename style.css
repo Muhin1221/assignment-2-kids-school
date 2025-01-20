@@ -8,6 +8,9 @@
     font-family: "Raleway";
     font-size: .96rem;
 }
+.raleway-small{
+    font-size: .94rem;
+}
 .regular-small-font{
     font-size: 1.25rem;
 }
@@ -127,7 +130,82 @@ main > section{
     border-radius: 12px;
     transition: .5s ease-in;
 }
+/* Curriculum Section */
+.curriculum{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-image: url('assets/bg.png');
+    background-position: center;
+    background-size: cover;
+    
+}
+.curriculum h3{
+    font-size: 2.87rem;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.card-container{
+    justify-content: space-between;
 
+}
+.card{
+    max-width: 280px;
+    text-align: center;
+    box-shadow: 0 0 29px .94px rgba(0, 0, 0, 0.05);
+    border-radius: 19px;
+    padding: 35px;
+}
+.card h5{
+    font-size: 1.56rem;
+    font-weight: bold;
+    margin-top: 32px;
+}
+.card p{
+    color: #808080;
+}
+.card a{
+    text-decoration: none;
+    font-size: .9375rem;
+    font-weight: 700;
+}
+.kinder-card{
+    background-image: linear-gradient(to bottom, rgba(222, 245, 255, 1) 0%,rgba(255, 255, 255, 0) 40% );
+    border: 1px solid rgba(222, 245, 255, .7);
+}
+.kinder-card a{
+    color: #64C8FF;   
+}
+.elementary-card{
+    background-image: linear-gradient(to bottom, rgba(255, 244, 220, 1) 0%,rgba(255, 255, 255, 0) 40%);
+    border: 1px solid rgba(255, 244, 220, 1) ;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+.elementary-card a{
+    color: #F0AA00;
+}
+.middle-card{
+    background-image: linear-gradient(to bottom, rgba(238, 225, 255, 1) 0%,rgba(255, 255, 255, 0) 40%);
+    border: 1px solid rgba(238, 225, 255, 1);
+}
+.middle-card a{
+    color: #8700FF;
+}
+.curriculum-btn{
+    max-width: 140px;
+    margin: 80px auto 60px auto;
+}
+.curriculum button{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 50%;
+    padding: 20px;
+}
 /* Responsive */
  /*normal*/
 @media screen and (max-width:576px) {
