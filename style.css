@@ -148,6 +148,7 @@ main > section{
 }
 .card-container{
     justify-content: space-between;
+    margin-bottom: 80px;
 
 }
 .card{
@@ -193,18 +194,23 @@ main > section{
 .middle-card a{
     color: #8700FF;
 }
-.curriculum-btn{
-    max-width: 140px;
-    margin: 80px auto 60px auto;
-}
+
 .curriculum button{
+    height: 60px;
+    width: 60px;
     font-size: 1.5rem;
     font-weight: 700;
     color: white;
     background-color: orange;
     border: none;
     border-radius: 50%;
-    padding: 20px;
+    margin-right: 10px;
+}
+.curriculum button:hover{
+    background-color: white;
+    border: 1px solid orange;
+    color: black;
+    transition: 0.3s ease-in;
 }
 /* Responsive */
  /*normal*/
@@ -231,6 +237,18 @@ main > section{
     .empower{
         order:1;
         text-align: center;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .card{
+        margin: 20px auto;
+    }
+    .curriculum h3{
+        text-align: center;
+    }
+    .curriculumn-btn{
+        display: none;
     }
     
 }
