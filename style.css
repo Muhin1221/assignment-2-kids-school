@@ -167,11 +167,13 @@
 }
 .card p{
     color: #808080;
+    margin-top: 10px;
 }
 .card a{
     text-decoration: none;
     font-size: .9375rem;
     font-weight: 700;
+    margin-top: 10px;
 }
 .kinder-card{
     background-image: linear-gradient(to bottom, rgba(222, 245, 255, 1) 0%,rgba(255, 255, 255, 0) 40% );
@@ -317,6 +319,9 @@
     background-color: #01ACFD;
     padding: 120px;
 }
+.footer p{
+    font-size: .96rem;
+}
 .footer-container{
     align-items: flex-start;
     justify-content: space-between;
@@ -351,6 +356,10 @@
 }
 marquee{
     overflow: hidden;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-size: 1.25rem;
 }
 
 
@@ -377,6 +386,12 @@ marquee{
         flex-direction: column;
 
     }
+    .hero h1{
+        font-size: 2rem;
+    }
+    .hero p{
+        font-size: .85rem;
+    }
     .empower{
         order:1;
         text-align: center;
@@ -389,12 +404,28 @@ marquee{
     }
     .curriculum h3{
         text-align: center;
+        font-size: 1.635rem;
+    }
+    .curriculum h5{
+        font-size: 1rem;
+    }
+    .curriculum p{
+        font-size: .6385rem;
     }
     .curriculumn-btn{
         display: none;
     }
     .stories{
         width: 100%;
+    }
+    .our-stories h3{
+        font-size: 1.6rem;
+    }
+    .story-card h5{
+        font-size: .75rem;
+    }
+    .story-card #raleway{
+        font-size: .56rem;
     }
     #gayebul-hawa{
         display: none;
@@ -407,14 +438,26 @@ marquee{
         padding-left: 0;
         padding-right: 0;
     }
+    .footer h3{
+        font-size: 2.18rem;
+    }
+    .footer p{
+        font-size: 1rem;
+    }
+    .about li{
+        font-size: 1rem;
+    }
     .footer-container{
         flex-direction: column;
         justify-content: space-between;
+        width: 100%;
         margin: 0;
+
     }
     .footer-container h5{
         margin-top: 15px;
         margin-bottom: 10px;
+        font-size: 1.25rem;
     }
     
     
